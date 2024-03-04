@@ -7,6 +7,7 @@ Q: What kind of users will visit your site? In other words, what is the demograp
 A: The demographic of users who will visit my site tend to be businesses and professionals in their late 20s to 40s. Businesses stand out as a target client as they need to be responsive to their consumers's needs. Also, professionals may need this application to keep their employers, coworkers, and clients satisfied especially if they travel a lot.
 
 Q: What data do you plan on using? You may have not picked your actual API yet, which is fine, just outline what kind of data you would like it to contain.
+
 Some data that I intend to use include text messages from users, named entities customized via the SpaCy library such as RECIPIENT_PHONE and MESSAGE, and specific words or phrases (strings like SEND TO +). 
 
 Source: https://www.twilio.com/en-us/blog/ai-messaging-app-sms-spacy-nlp-flask
