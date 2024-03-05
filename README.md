@@ -80,7 +80,7 @@ In summary, this AI messaging app incorporates Spacy NLP for entity recognition,
 4. (e) What will the user flow look like?
    The user flow includes getting a free Twilio number, setting up the project by creating and training the AI Model with Spacy for natural language processing (NLP), building the backend REST API with Flask and Python, building the chatbot UI with React, and testing the AI pwoered messaging app.
 
-4. (f) What features make your site more than CRUD? Do you have any stretch goals?
+4f. What features make your site more than CRUD? Do you have any stretch goals?
    My AI messaging app stands out beyond CRUD with its Spacy's NLP feature, Twilio's SMS Messaging service, Flask backend framework for a seamless integration of NLP combined with Twilio's messaging functionality, and the chatbot user interface that's been created with React.
    
    One stretch goal is definitely intent detection as I rarely see it mentioned in Twilio's blog (third link). Another stretch goal is to widen my application's functionality by integrating it with other messaging platforms like WhatsApp.
