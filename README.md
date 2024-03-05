@@ -17,7 +17,7 @@ My database schema will most likely include the following tables Users, Messages
  **Users**: Stores information about each user along with relevant user details.
  - id (Primary Key)
  - name
- - phone_number
+ - phone_number (Unique to avoid data redundancy and potential inconsistencies.)
  - created_at
  - updated_at
 
@@ -25,6 +25,8 @@ My database schema will most likely include the following tables Users, Messages
  - id (Primary Key)
  - user_id (Foreign Key referencing Users)
  - body
+ - from 
+ - to_recepient (Foreign key referencing phone_number in Users)
  - direction (incoming or outgoing)
  - created_at
  - updated_at
